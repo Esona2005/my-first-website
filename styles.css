@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  font-family: sans-serif;
+  font-size:100px
+  font-weight:400px;
+  text-align:left;
+  text-decoration: none
+}
+.topnav {
+  overflow: hidden;
+  background-color: #ffb3b3;
+}
+
+.topnav a {
+  float: left;
+  color: #000000
+ ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #e6005c;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffb3b3;
+  color: #000000;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="index.html>home</a>
+  <a href="tips.html">tips</a>
+  <a href="recommendations.html">recommendations</a>
+</div>
+<footer>
+  <p>Author: Hege Refsnes</p>
+  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+
+
+
+</body>
+</html>
